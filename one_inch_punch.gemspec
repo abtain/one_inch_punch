@@ -7,9 +7,9 @@ Gem::Specification.new do |gem|
   gem.email = ['ymendel@pobox.com']
   gem.executables = ['punch']
   gem.files = Dir['License.txt', 'History.txt', 'README.txt', 'lib/**/*', 'spec/**/*', 'bin/**/*']
-  gem.homepage = 'http://github.com/ymendel/one_inch_punch/'
+  gem.homepage = 'http://github.com/abtain/one_inch_punch/'
   gem.name = 'one_inch_punch'
   gem.require_paths = ['lib']
   gem.summary = %q{Track your time locally.}
-  gem.version = '0.6.0'
+  gem.version = '0.6.1'
 end

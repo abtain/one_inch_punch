@@ -56,7 +56,8 @@ One-inch punch: Smaller, more effective
 
 == INSTALL:
 
-* gem install one_inch_punch
+* gem build one_inch_punch.gemspec
+* gem install one_inch_punch-0.6.1.gem
 
 == THANKS:
 
