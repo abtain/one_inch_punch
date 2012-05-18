@@ -138,6 +138,9 @@ commands = {
   'summary' => lambda do |project|
     if project
       puts Punch.summary(project, OPTIONS.merge(:format => true)).to_yaml
+      total_time = Punch.total(project, OPTIONS.merge(:format => true))
+      puts "---"
+      puts "Total time: #{total_time}"
     else
       puts "Project required"
     end
